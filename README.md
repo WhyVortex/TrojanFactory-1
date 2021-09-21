@@ -1,29 +1,31 @@
 # TrojanFactory
 
-Simple python script to generate trojans.
+TrojanFactory, Truva Atı/Atları oluşturmak için basit python betiğidir.
 
-The Trojan Factory is designed to be as generic as possible, it can be used to embed evil files within any normal file, it does this using an Autoit download-and-execute script, so basically it takes 2 urls:
-1. One for a normal file (can be a pdf, mp3. doc, exe ...etc);
-2. And an evil file (backdoor, keylogger ...etc).
-The result is one exe that when executed, it presents the normal file (file 1) to the user and runs the evil file in the background.
+TrojanFactory mümkün olduğu kadar genel konsept olarak tasarlanmıştır, herhangi bir normal dosyaya kötü dosyaları entegre etmek için kullanılabilir, bunu Autoit indirerek ve kullanarak yapabilirsiniz. 
+İki temel mantığı vardır; 
 
-Features:
-- Can be used with any file type (pdf, mp3. png, jpg ...etc).
-- Works with updated systems because it does NOT rely on a vulnerability, its simply a download and execute script.
-- Automatically sets the right icon depending on file 1.
-- User can also use a custom icon.
-- Trojan can be packaged into a zip automatically using the --zip argument.
+1. Standart bir dosyaya sahipsinizdir (pdf, mp3.doc, exe ...vb olabilir);
+2. Buna farklı bir yazılım entegre etmek istiyorsunuzdur. (arka kapı(backdoor), (des, krp vb.)keylogger ...vs).
+Sonuç olarak, kullanmış olduğunuz jpeg, icon eklentilerini yaratmış olduğunuz .exe uzantılı dosyaya entegre ederek kullanmış olduğunuz .exe dosyasının farklı biçimde kullanılmasını sağlarsınız.
 
-Requirements:
+Özellikleri:
+- Herhangi bir dosya türü ile kullanılabilir (pdf, mp3. png, jpg ...vb).
+- Güncellenmiş sistemlerle çalışır. Güvenlik açığına dayanmadan hareket eder, yalnızca download edilerek çalışan bir dosya türüdür.
+- Kullandığınız dosyaya göre doğru orantıda biçimlendirme yapar.
+- Ekstra olarak özel bir simge, icon, jpeg kullanma imkanı sunar.
+- TrojanFactory, --zip argümanı kullanılarak otomatik olarak bir zip dosyasına paketlenebilir.
+
+Gereksinimler:
   - Autoit (https://www.autoitscript.com/site/autoit/downloads/).
   
-Installation:
-  1. Download AutoIt (https://www.autoitscript.com/site/autoit/downloads/).
-  2. Install it using wine
-    > wine autoit-v3-setup.exe
-  3. Clone Trojan Factory:
-    > git clone https://github.com/z00z/TrojanFactory.git
-  4. You're all set, navigare into TrojanFactory
-    > cd TrojanFactory
-  5. Run --help for usage
-    > python trojan_factory.py --help
+Kurulum:
+  1. AutoIt'i indirin (https://www.autoitscript.com/site/autoit/downloads/).
+  2. “Wine” kullanarak kurun
+   >>> Wine autoit-v3-setup.exe
+  3. “Git Clone üzerinden kurulum” 
+    >>> Git clone https://github.com/z00z/TrojanFactory.git
+  4. Artık bitti, TrojanFactory'yi açabilirsiniz.
+    >>> cd TrojanFactory.py
+  5. Kullanım için --help komutunu çalıştırın
+    > python trojan_factory.py -- help
