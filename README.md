@@ -16,14 +16,14 @@ Sonuç olarak, kullanmış olduğunuz jpeg, icon eklentilerini yaratmış olduğ
 **-** Ekstra olarak özel bir simge, icon, jpeg kullanma imkanı sunar.
 **-** TrojanFactory, --zip argümanı kullanılarak otomatik olarak bir zip dosyasına paketlenebilir.
 
-***Gereksinimler:
+***Gereksinimler:***
   - Autoit (https://www.autoitscript.com/site/autoit/downloads/).
   
-***Kurulum:
- ** 1. AutoIt'i indirin (https://www.autoitscript.com/site/autoit/downloads/).**
- ** 2. “Wine” kullanarak kurun**
+***Kurulum:***
+ **1. AutoIt'i indirin (https://www.autoitscript.com/site/autoit/downloads/).**
+ **2. “Wine” kullanarak kurun**
       - Wine autoit-v3-setup.exe -
-  3. **“Git Clone üzerinden kurulum” **
+  3. **“Git Clone üzerinden kurulum”**
 
     >>> Git clone https://github.com/z00z/TrojanFactory.git
   4. **Artık bitti, TrojanFactory'yi açabilirsiniz.**
