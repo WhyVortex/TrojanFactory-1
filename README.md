@@ -21,6 +21,7 @@ Sonuç olarak, kullanmış olduğunuz jpeg, icon eklentilerini yaratmış olduğ
 
   
 ***Kurulum:***
+
  **1. AutoIt'i indirin (https://www.autoitscript.com/site/autoit/downloads/).**
 
  **2. “Wine” kullanarak kurun**
