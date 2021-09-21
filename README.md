@@ -22,10 +22,14 @@ Gereksinimler:
 Kurulum:
   1. AutoIt'i indirin (https://www.autoitscript.com/site/autoit/downloads/).
   2. “Wine” kullanarak kurun
+
    >>> Wine autoit-v3-setup.exe
   3. “Git Clone üzerinden kurulum” 
+
     >>> Git clone https://github.com/z00z/TrojanFactory.git
   4. Artık bitti, TrojanFactory'yi açabilirsiniz.
+
     >>> cd TrojanFactory.py
   5. Kullanım için --help komutunu çalıştırın
-    > python trojan_factory.py -- help
+
+    >>> python trojan_factory.py -- help
